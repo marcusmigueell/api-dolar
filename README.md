@@ -58,6 +58,21 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Migrations
+
+```bash
+# migration create
+$ npx typeorm migration:create src/database/migrations/migrations-name
+
+# migration run
+$ npm run build
+$ npx typeorm migration:run -d dist/src/database/orm-cli-config.jsc
+
+# migration revert
+$ npm run build
+$ npx typeorm migration:revert -d dist/src/database/orm-cli-config.js
+```
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).

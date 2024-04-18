@@ -10,10 +10,16 @@
             "name": "api-dolar",
             "console": "integratedTerminal",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/dist/main.js",
+            "program": "${workspaceFolder}/dist/src/main.js",
             "env": {
                 "PORT": 3001,
-                "BASE_URL": "https://economia.awesomeapi.com.br/"
+                "BASE_URL": "https://economia.awesomeapi.com.br/",
+                "HOST_DB": "localhost",
+                "PORT_DB": 5432,
+                "USER_DB": "dolar",
+                "PASS_DB": "dolar123",
+                "DATABASE": "postgres",
+                "DATABASE_SSL": false
             }
         }
     ]
