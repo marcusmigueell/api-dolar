@@ -66,7 +66,7 @@ $ npx typeorm migration:create src/database/migrations/migrations-name
 
 # migration run
 $ npm run build
-$ npx typeorm migration:run -d dist/src/database/orm-cli-config.jsc
+$ npx typeorm migration:run -d dist/src/database/orm-cli-config.js
 
 # migration revert
 $ npm run build
